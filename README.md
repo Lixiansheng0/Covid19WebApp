@@ -1,19 +1,32 @@
-# vue-covid19
+# 疫情数据展示
 
-## Project setup
-```
-yarn install
+## 项目知识点
+1. Vue基础知识
+2. Axios网络请求
+3. Echarts可视化
+4. Swiper焦点轮播图
+5. Vue-Router
+
+## 接口地址
+http://iwenwiki.com/wapicovid19/
+
+## 安装依赖
+```js
+npm install --save axios
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 联调：联合调试
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 上传(部署)
+1. 常见部署情况，一般都是运维去部署
+2. 常见部署工具：FTP、命令行
+3. 常见服务器：
+    1. 阿里云服务器
+    2. 腾讯云服务器
+    3. 自主服务器(自己公司的服务器)
+4. 将我们自己的项目部署到服务器
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 打包项目
+1. Vue打包出来的文件不可以直接运行，必须以服务器方式运行
+2. Vue打包出来的项目，默认只能放在服务器的根目录下运行,如果不是根目录，需要额外配置
